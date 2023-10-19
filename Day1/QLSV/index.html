@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QLSV</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <form action="" class="form-inline" id="form-search">
+          <div class="form-group">
+            <label for=""></label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nhập mã sinh viên"
+              aria-describedby="helpId"
+              id="msv"
+            />
+            <button type="submit" class="btn btn-success">Tìm kiếm</button>
+          </div>
+        </form>
+        <form action="" class="form-inline">
+          <div class="form-group">
+            <div class="form-group">
+              <label for=""></label>
+              <select name="" class="form-control" id="">
+                <option value="">Điểm tăng dần</option>
+                <option value="">Điểm giảm dần</option>
+              </select>
+            </div>
+            <button class="btn btn-success">Sắp Xếp</button>
+          </div>
+        </form>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <td>MSV</td>
+            <td>Họ Tên</td>           
+            <td>Ảnh</td>
+            <td>Điểm</td>
+          </tr>
+        </thead>
+        <tbody id="root"></tbody>
+      </table>
+    </div>
+
+    <script src="./dist/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+let test:number = 9.6; // Vì js chỉ hiểu số là number thì có thể gán biến kiểu number bất kì số nào miễn nó là số
